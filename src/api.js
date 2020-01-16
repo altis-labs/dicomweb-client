@@ -1,4 +1,5 @@
 import { multipartEncode, multipartDecode } from "./message.js";
+var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 
 function isObject(obj) {
   return typeof obj === "object" && obj !== null;
